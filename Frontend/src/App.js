@@ -1,11 +1,11 @@
 import React from 'react';
-import TodoList from './components/TodoList';
+import './styles/App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Các Khái Niệm Cơ Bản trong React</h1>
-      <TodoList />
+      <Home />
     </div>
   );
 }
